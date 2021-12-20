@@ -1,0 +1,44 @@
+h1, h2{
+  color: floralwhite;
+  font-size: 40px;
+  font-style: oblique;
+  font-family: cursive;
+  text-shadow: 2px 5px 2px green;
+  text-align: center;
+  text-transform: uppercase;
+  border-top-style: groove;
+  border-bottom-style: groove;
+  border-width: 10px;
+  border-color: pink;
+  padding: 10px;
+}
+body{
+  background-image: url(https://www.claude-monet.com/images/paintings/water-lily-pond-with-japanese-bridge.jpg);
+  font-size: 20px;
+  font-family: cursive;
+  background-size: cover;
+  height: 100vh;
+  margin: 50px;
+  color: floralwhite;
+  text-shadow: 1px 2px 1px green;
+  text-align: center;
+  letter-spacing: 1px;
+}
+#calculator{
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 100px 200px;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 10px;
+}
+div{
+  width: 50px;
+  height: 100px;
+  background: green;
+  transition: ease-in width 1s;
+  transform: scale(.75);
+}
+div:hover{
+      width:300px;
+}
